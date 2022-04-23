@@ -2,7 +2,7 @@
 
 // todo add a new image
 
-## Instructions
+## 🍋 Instructions
 
 1. Create a new project named: `sign_in`.
 2. Create a folder named `pages` and inside it create your first page named `home_screen.dart`.
@@ -35,7 +35,7 @@ import 'package:go_router/go_router.dart';
 19. In your `home_screen.dart` `ElevatedButton` `onPressed` method, check if the `password` is equal to the String `12345` and then navigate the user to the `/signin` page and pass the `username` as extra.
 20. In your `signed_in.dart` display a welcome message in the `Text` widget with the username we got.
 
-### 🍋 No coming back
+### 🤼‍♂️ No coming back
 
 After the user is signed in, we don't want him to be able to go back to the signin form.
 
