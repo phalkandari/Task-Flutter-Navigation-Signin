@@ -1,6 +1,6 @@
 # Sign in Page ✅
 
-// todo add a new image
+![ISignin](https://user-images.githubusercontent.com/84308096/167295565-f7333b32-fe1e-40d2-a647-69a54f12bb63.gif)
 
 ## 🍋 Instructions
 
