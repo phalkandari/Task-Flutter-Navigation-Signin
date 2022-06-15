@@ -20,9 +20,9 @@ import 'package:go_router/go_router.dart';
 4. Create your routes so the `home_screen.dart` be the main screen and `signed_in.dart` on the path `/signin`.
 5. Replace the `MaterialApp` with a `MaterialApp.router`.
 6. In your `signed_in.dart` page, create a variable to hold the `username`.
-7. Generate a constructor for the `signed_in.dart` widget.
+7. Fix the constructor for the `signed_in.dart` widget.
 8. In your `main.dart` `/signin` route, pass the username as a `String`.
-9. In your `home_screen.dart` `ElevatedButton` `onPressed` method, check if the `password` is equal to the String `12345` and then navigate the user to the `/signin` page and pass the `username` as extra.
+9. In your `home_screen.dart` `ElevatedButton` `onPressed` method, check if the `password` is equal to the String `12345` and then navigate the user to the `/signed_in` page and pass the `username` as extra.
 10. In your `signed_in.dart` display a welcome message in the `Text` widget with the username we got.
 
 ### 🤼‍♂️ No coming back
