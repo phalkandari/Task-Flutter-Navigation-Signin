@@ -30,3 +30,17 @@ import 'package:go_router/go_router.dart';
 After the user is signed in, we don't want him to be able to go back to the signin form.
 
 Open the `go_router` [docs](https://gorouter.dev/navigation) and explore the `go` method instead of the `push` method.
+
+## Push to Github
+
+```shell
+git add .
+```
+
+```shell
+git commit -m "your message"
+```
+
+```shell
+git push
+```
