@@ -2,9 +2,10 @@ import 'package:flutter/material.dart';
 
 class SignedIn extends StatelessWidget {
   // Step 5
-  const SignedIn({
-    Key? key,
-  }) : super(key: key);
+
+  String username;
+
+  SignedIn({Key? key, required this.username}) : super(key: key);
   // Step 6
   @override
   Widget build(BuildContext context) {
@@ -16,9 +17,9 @@ class SignedIn extends StatelessWidget {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: const [
+          children: [
             // Step 9
-            Text("Welcome username"),
+            Text("Welcome ${username}"),
             Icon(
               Icons.check_circle,
               color: Colors.green,
